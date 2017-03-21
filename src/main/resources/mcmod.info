@@ -1,0 +1,16 @@
+[
+{
+  "modid": "testermod",
+  "name": "Tester Mod for some Socket Things",
+  "description": "A thing!",
+  "version": "0.0.1",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["JadeIEA"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

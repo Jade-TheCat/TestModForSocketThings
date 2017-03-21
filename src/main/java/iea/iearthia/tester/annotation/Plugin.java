@@ -1,7 +1,14 @@
 package iea.iearthia.tester.annotation;
 
-/**
- * Created by jacka on 3/15/2017.
- */
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE)
 public @interface Plugin {
+    String name() default "";
+    String version() default "1.0.0";
+    String author() default "";
 }
